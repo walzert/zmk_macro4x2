@@ -1,3 +1,4 @@
+#include "macro4x2_layout.dtsi"
 // 4x2.overlay
 / {
     kscan0: kscan0 {
