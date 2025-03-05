@@ -4,6 +4,7 @@
 / {
     keymap {
         compatible = "zmk,keymap";
+        &studio_unlock
 
         default_layer { // Layer 0
             // -------------------------------------
