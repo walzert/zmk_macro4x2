@@ -12,9 +12,8 @@
             // |     A     |     B     |     C     |
             // |     D     |     E     |     F     |
             bindings = <
-                &kp Z    &kp M    &kp K     &kp K
-                &kp A    &kp B    &kp C     &kp K
-                &kp D    &kp E    &kp F     &kp K
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 2
             >;
         };
     };
