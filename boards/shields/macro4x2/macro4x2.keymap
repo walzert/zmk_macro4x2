@@ -49,5 +49,35 @@
                 &kp A    &kp B    &kp C     &kp 2
             >;
         };
+          extra_layer_1 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 2
+            >;
+        };
+          extra_layer_2 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 2
+            >;
+        };
+          extra_layer_3 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 2
+            >;
+        };
     };
  };
