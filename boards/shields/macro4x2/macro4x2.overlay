@@ -42,10 +42,14 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
+
+      zmk,battery = &vbatt;
         //zephyr,display = &oled;
                 // Other chosen items
     };
-
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
     
 };
 
