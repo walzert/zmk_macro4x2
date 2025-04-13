@@ -49,11 +49,7 @@
             , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-
-
-
-
-
+        };
 
 &i2c0 {
     status = "okay";
@@ -74,4 +70,4 @@
         prechargep = <0x22>;
     };
 };
-};
+
