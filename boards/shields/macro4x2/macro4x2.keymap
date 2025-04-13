@@ -89,6 +89,7 @@
                 &kp Z    &kp M    &kp K     &kp 1
                 &kp A    &kp B    &kp C     &kp 0
             >;
+            c
         };
     };
  };
