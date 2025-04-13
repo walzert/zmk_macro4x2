@@ -53,9 +53,10 @@
     
 };
 
-&i2c1 {
+&i2c1 {  
     status = "okay";
-    oled: ssd1306@3c {
+  
+    ssd1306: ssd1306@3c {  // 'ssd1306' ist jetzt das Label
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
@@ -66,5 +67,17 @@
         multiplex-ratio = <63>;
         segment-remap;
         com-invdir;
+
+        layer-status {
+        compatible = "zmk,widget-layer-status";
+        display = <&ssd1306>;
     };
+
+    battery-status {
+        compatible = "zmk,widget-battery-status";
+        display = <&ssd1306>;
+    };
+
+    };
+
 };

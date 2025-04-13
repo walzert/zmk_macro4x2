@@ -92,14 +92,3 @@
         };
     };
  };
- &ssd1306 {
-    layer-status {
-        compatible = "zmk,widget-layer-status";
-        display = <&oled>;
-    };
-
-    battery-status {
-        compatible = "zmk,widget-battery-status";
-        display = <&oled>;
-    };
-};
