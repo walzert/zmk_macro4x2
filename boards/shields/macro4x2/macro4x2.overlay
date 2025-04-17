@@ -1,6 +1,10 @@
 #include "macro4x2_layout.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
+#include <dt-bindings/pinctrl/rpi-pico-rp2040-pinctrl.h>
+
+
+
 // 4x2.overlay
 / {
 
@@ -51,9 +55,10 @@
     };
         };
 
-/* &i2c0 {
+&i2c0 {
     status = "okay";
-
+    pinctrl-names = "default";
+    clock-frequency = <I2C_BITRATE_STANDARD>;
     oled: ssd1306@3c {  // I2C-Adresse 0x3C
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
@@ -69,5 +74,4 @@
         inversion-on;
         prechargep = <0x22>;
     }; 
-};*/
-
+};
