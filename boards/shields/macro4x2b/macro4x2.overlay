@@ -1,4 +1,4 @@
-#include "macro4x2_layout.dtsi"
+#include "macro4x2b_layout.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
 // 4x2.overlay

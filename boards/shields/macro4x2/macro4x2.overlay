@@ -54,7 +54,7 @@
             ;
     };
         };
-
+/* 
 &i2c0 {
     status = "okay";
     pinctrl-names = "default";
@@ -75,3 +75,4 @@
         prechargep = <0x22>;
     }; 
 };
+ */
