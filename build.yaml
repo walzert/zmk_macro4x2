@@ -23,8 +23,10 @@ include:
     shield: macro4x2b
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     snippet: studio-rpc-usb-uart
+    artifact-name: macro4x2b
   - board: seeeduino_xiao_rp2040
     shield: macro4x2
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     snippet: studio-rpc-usb-uart
+    artifact-name: macro4x2
 
