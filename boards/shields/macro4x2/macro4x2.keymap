@@ -28,7 +28,7 @@
             >;
         };
 
-                gaming_layer { // Layer 0
+                gameing_layer { // Layer 0
             // -------------------------------------
             // |     Z     |     M     |     K     |
             // |     A     |     B     |     C     |
@@ -81,6 +81,17 @@
         };
 
                   extra_layer_4 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+            
+        };
+                          extra_layer_5 { // Layer 0
             // -------------------------------------
             // |     Z     |     M     |     K     |
             // |     A     |     B     |     C     |

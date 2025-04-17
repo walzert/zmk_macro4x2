@@ -1,7 +1,7 @@
 if SHIELD_MACRO4X2
 
 config ZMK_KEYBOARD_NAME
-    default "macro4x2"
+    default "mc_thomas3 macro4x2"
 
 config ZMK_USB
 	default y
