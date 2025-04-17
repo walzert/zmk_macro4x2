@@ -1,0 +1,106 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        //&studio_unlock
+
+        default_layer { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp 1    &kp 2    &kp 3     &kp 4
+                &kp 5    &kp 6    &kp 7     &kp 0
+            >;
+        };
+
+        streaming_layer { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+
+                gameing_layer { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+
+                extra_layer { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+          extra_layer_1 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+          extra_layer_2 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+          extra_layer_3 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+        };
+
+                  extra_layer_4 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+            
+        };
+                          extra_layer_5 { // Layer 0
+            // -------------------------------------
+            // |     Z     |     M     |     K     |
+            // |     A     |     B     |     C     |
+            // |     D     |     E     |     F     |
+            bindings = <
+                &kp Z    &kp M    &kp K     &kp 1
+                &kp A    &kp B    &kp C     &kp 0
+            >;
+            
+        };
+    };
+ };
