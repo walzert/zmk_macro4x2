@@ -1,4 +1,4 @@
-if SHIELD_MACRO4X2_BLE
+if SHIELD_MACRO4X2B
 
 config ZMK_KEYBOARD_NAME
     default "mct3 macro4x2"
